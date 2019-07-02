@@ -1,5 +1,5 @@
 {
-  "name": "miniprogram-scrollview",
+  "name": "miniprogram-scrollview-refresh",
   "version": "1.0.1",
   "description": "微信小程序刷新组件（下拉刷新、上拉加载更多），简单集成，低侵入",
   "main": "src/index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Projects-Weixin/miniprogram-scrollView.git"
+    "url": "git+https://github.com/Projects-Weixin/miniprogram-scrollview-refresh.git"
   },
   "keywords": [
-    "miniprogram-scrollview"
+    "miniprogram-scrollview-refresh"
   ],
-  "author": "mf",
+  "author": "mftechs",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Projects-Weixin/miniprogram-scrollView/issues"
+    "url": "https://github.com/Projects-Weixin/miniprogram-scrollview-refresh/issues"
   },
-  "homepage": "https://github.com/Projects-Weixin/miniprogram-scrollView#readme"
+  "homepage": "https://github.com/Projects-Weixin/miniprogram-scrollview-refresh#readme"
 }
