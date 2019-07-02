@@ -1,0 +1,23 @@
+{
+  "name": "miniprogram-scrollview",
+  "version": "1.0.0",
+  "description": "微信小程序刷新组件（下拉刷新、上拉加载更多），简单集成，低侵入",
+  "main": "src/index.js",
+  "miniprogram":"src",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Projects-Weixin/miniprogram-scrollView.git"
+  },
+  "keywords": [
+    "miniprogram-scrollview"
+  ],
+  "author": "mf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Projects-Weixin/miniprogram-scrollView/issues"
+  },
+  "homepage": "https://github.com/Projects-Weixin/miniprogram-scrollView#readme"
+}
