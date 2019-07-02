@@ -138,6 +138,7 @@ npm unpublish 包名
 
 ## 注意事项
 ```
+npm init 新建src文件夹 修改package.json，"main": "src/index.js"， "miniprogram":"src",
 1根据规范，只有在发包的24小时内才允许撤销发布的包（ unpublish is only allowed with versions published in the last 24 hours）
 2即使你撤销了发布的包，发包的时候也不能再和被撤销的包的名称和版本重复了（即不能名称相同，版本相同，因为这两者构成的唯一标识已经被“占用”了）
 ```
