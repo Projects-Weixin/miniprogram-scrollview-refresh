@@ -1,6 +1,6 @@
 {
   "name": "miniprogram-scrollview",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "微信小程序刷新组件（下拉刷新、上拉加载更多），简单集成，低侵入",
   "main": "src/index.js",
   "miniprogram":"src",
