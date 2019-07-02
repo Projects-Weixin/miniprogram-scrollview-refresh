@@ -1,5 +1,9 @@
+## 微信小程序刷新组件（下拉刷新、上拉加载更多），简单集成，低侵入
+## 安装支持npm
+npm i miniprogram-scrollview
 
-# 官方推荐自定义组件的配置方式
+
+# 其他
 miniprogram-custom-component
 
 小程序自定义组件开发模板：
