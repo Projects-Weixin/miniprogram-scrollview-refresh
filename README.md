@@ -1,4 +1,6 @@
-# miniprogram-custom-component
+
+# 官方推荐自定义组件的配置方式
+miniprogram-custom-component
 
 小程序自定义组件开发模板：
 
@@ -67,6 +69,7 @@ npm login
 npm publish
 ```
 
+
 到此，npm 包就成功发布到 npm 平台了。
 
 > PS：一些开发者在开发过程中可能修改过 npm 的源，所以当进行登录或发布时需要注意要将源切回 npm 的源。
@@ -123,3 +126,15 @@ npm run clean
 ```
 npm run clean-dev
 ```
+
+* 删除npm中packages，执行：
+```
+npm unpublish 包名
+```
+
+## 注意事项
+```
+1根据规范，只有在发包的24小时内才允许撤销发布的包（ unpublish is only allowed with versions published in the last 24 hours）
+2即使你撤销了发布的包，发包的时候也不能再和被撤销的包的名称和版本重复了（即不能名称相同，版本相同，因为这两者构成的唯一标识已经被“占用”了）
+```
+
